@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wedapp.sud.myapp2">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_android_map_api_key" />
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DisplayBrideActivity"
+            android:label="@string/title_activity_display_bride"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DisplayGroomActivity"
+            android:label="@string/title_activity_display_groom"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DisplayWeddingActivity"
+            android:label="@string/title_activity_display_wedding"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DisplayReceptionActivity"
+            android:label="@string/title_activity_display_reception"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".SubmitInviteActivity" />
+
+        <service
+            android:name=".PlayAudio"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".RSVP" android:label="@string/rsvp"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+    </application>
+
+</manifest>

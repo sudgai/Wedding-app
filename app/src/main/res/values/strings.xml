@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Save the date</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="rsvp">RSVP</string>
+    <string name="title_activity_display_bride">Snehal Bhosale</string>
+    <string name="bride_text">
+        "Doughter of \n"
+        "Mrs. Varsha and Mr. Hanmant Bhosale."
+    </string>
+    <string name="title_activity_display_groom">Sudhir Gaikwad</string>
+    <string name="groom_text">
+        "Son of \n"
+        "Mrs. Savita and Mr. Manik Gaikwad.\n"
+    </string>
+    <string name="title_activity_dispay_wedding">Wedding</string>
+    <string name="wedadd_line">
+        "Hotel Lake view,\n"
+        "Godoli, Satara,\n"
+        "On satara-rahimatpur road."
+    </string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="google_android_map_api_key">AIzaSyAZB0k6ESOl2FAA-IA7kYaEMP_2aGTuc_Q</string>
+    <string name="title_activity_display_wedding">Wedding</string>
+    <string name="title_activity_contact_fragment">ContactFragment</string>
+    <string name="title_activity_display_reception">Reception</string>
+    <string name="Recpt_Tim">7 PM to 11 PM</string>
+    <string name="Wedd_Tim">4:27 PM</string>
+    <string name="Wedd_date">June 28, 2017.</string>
+    <string name="Recp_date">July 02, 2017.</string>
+    <string name="time">Timings:</string>
+    <string name="recpt_add">
+        "Sutra Benquet Hall,\n"
+        "Hilton Centre, Plot No.66, \n"
+        "Sector 11, CBD Belapur,\n"
+        "Navi Mumbai- 400614.\n"
+        "Behind Vijya Bank."
+    </string>
+    <string name="recept_head">Reception Address:</string>
+    <string name="add">Address:</string>
+    <string name="mail_line1_1">
+        "Hi Sudhir,\n"
+        "This mail is to inform you that "
+    </string>
+    <string name="mail_line1_2">
+         " has been planned to join your "
+    </string>
+    <string name="mail_line2">
+        "Please, arrange booking for "
+    </string>
+    <string name="rsvp4">tel:9970117829</string>
+    <string name="rsvp3">tel:9987507270</string>
+    <string name="rsvp2">tel:9423804440</string>
+    <string name="rsvp1">tel:9920761855</string>
+    <string name="action_settings">Settings</string>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_bride"
+            android:icon="@mipmap/icon"
+            android:title="Bride" />
+        <item
+            android:id="@+id/nav_groom"
+            android:icon="@mipmap/icon"
+            android:title="Groom" />
+        <item
+            android:id="@+id/nav_wedding"
+            android:icon="@mipmap/icon"
+            android:title="Wedding" />
+        <item
+            android:id="@+id/nav_reception"
+            android:icon="@mipmap/icon"
+            android:title="Reception" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share"
+                android:actionProviderClass="android.widget.ShareActionProvider"/>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Invite" />
+        </menu>
+    </item>
+
+</menu>
